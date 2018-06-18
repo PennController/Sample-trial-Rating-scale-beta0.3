@@ -7,6 +7,7 @@ var items = [
             .print()
         ,
         newText("question", "How easy do you find it to process the sentence above?")
+            .print()
         ,
         // We create a 5-point scale
         newScale("answer", 5)
